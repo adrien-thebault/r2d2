@@ -1,0 +1,19 @@
+[package]
+name = "r2d2"
+version = "0.1.0"
+authors = ["Adrien Thébault <adrien.thebault@luova.fr>"]
+
+[dependencies]
+slack = "0.21.0"
+slack_api = "0.20.0"
+log = "0.4"
+rand = "0.5.5"
+actix = "0.7"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+fern = { version = "0.5", features = ["colored"] }
+chrono = { version = "0.4", features = ["serde"] }
+tokio-codec = "0.1"
+bytes = "0.4"
+lazy_static = "1.0"
